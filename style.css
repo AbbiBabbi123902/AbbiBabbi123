@@ -1,1 +1,166 @@
+* { 
+  box-sizing: border-box;
+}
+body {
+  margin :0;
+  background: #0d0b0e;
+  color: #f8edf3;
+  font-family: Georgia, "Times New Roman", serif;
+  line-hight: 1.7;
+  }
 
+  /* --------- MAIN CONTAINER-----------*/
+  body {
+    background-image:
+      radial-gradient(circle at 20% 20%, rgba(255, 170, 205, 0.08) 0 1px, transparent 1px), 
+      radial-gradient(circle at 80% 70%, rgba(255, 170, 205, 0.06) 0 1px, transparent 1px);
+    background-size: 35px 35px;
+  }
+
+  /*--------------HEADER-------------*/
+  header {
+    width:90%;
+    max-width: 900px;
+    margin: 50px auto 20px;
+    padding: 45px 30px;
+    text-align: center;
+
+    Background: #171217;
+    border: 1px solid #6f3c55;
+    border-radius: 8px;
+
+    box-shadow:
+      0 0 25px rgba(255, 145, 190, 0.08),
+      inset 0 0 25px rgba(255,145,190,0.03);
+  }
+
+  header h1 {
+    margin: 0;
+    color: #f3a8c8;
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    letter-spacing: 5px;
+    text-shadow: 0 0 12px rgba(243, 168, 200, 0.35);
+  }
+
+  header p {
+    margin-top: 10px;
+    color: #d7aebe;
+    font-size:1rem;
+    font-style: italic;
+  }
+
+  /*-------NAVIGATION---------*/
+
+  nav {
+    width:90%;
+    max-width: 900px;
+    margin: 0 auto 30px;
+    padding: 13px;
+
+    text-align: center;
+
+    background: #171217;
+    border: 1px solid #4f3040;
+    border-radius: 6px;
+
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0 14px;
+
+    color: #f3a8c8;
+    text-decoration: none;
+    font-size: 0.95rem;
+    letter-spacing: 1px;
+
+    transition: 0.25s ease;
+
+  }
+  nav a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #f3a8c8;
+    transform: translateY(-2px);
+
+  }
+
+  /*-------------BLOG AREA-------*/
+
+  main {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+
+  }
+
+  article {
+    padding: 35px;
+
+    background: #171217;
+    border: 1px solid #4f3040;
+    border-radius: 8px;
+
+    box-shadow:
+      0 10px 35px rgba(0, 0, 0, 0.4);
+
+  }
+
+  article h2 {
+    margin-top: 0;
+    color: #f3a8c8;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  .date {
+    color: #9d7185;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+
+  }
+
+  article p {
+    color: #eadde3;
+  }
+
+  /*-------------LINKS----------*/
+
+  a {
+    color: #f3a8c8;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+
+  /*---------------FOOTER------------*/
+
+  footer {
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auuto 50px;
+
+    text-align: center;
+    color: #8f6879;
+    font-size: 0.85rem;
+  }
+
+  /*--------------MOBILE----------------*/
+
+  @madia  (max-width: 600px) {
+    header {
+      margin-top: 20px;
+      padding: 35px 20px;
+    }
+
+    nav a {
+      margin: 5px 8px;
+    }
+    article {
+      padding: 25px 20px;
+    }
+    article h2{
+      font-size: 1.6rem;
+    }
+
+  }
+      
