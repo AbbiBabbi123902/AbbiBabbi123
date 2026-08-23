@@ -6,7 +6,7 @@ body {
   background: #0d0b0e;
   color: #f8edf3;
   font-family: Georgia, "Times New Roman", serif;
-  line-hight: 1.7;
+  line-height: 1.7;
   }
 
   /* --------- MAIN CONTAINER-----------*/
@@ -137,7 +137,7 @@ body {
   footer {
     width: 90%;
     max-width: 900px;
-    margin: 35px auuto 50px;
+    margin: 35px auto 50px;
 
     text-align: center;
     color: #8f6879;
@@ -146,7 +146,7 @@ body {
 
   /*--------------MOBILE----------------*/
 
-  @madia  (max-width: 600px) {
+  @media  (max-width: 600px) {
     header {
       margin-top: 20px;
       padding: 35px 20px;
