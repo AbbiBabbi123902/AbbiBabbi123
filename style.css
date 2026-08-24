@@ -21,7 +21,7 @@ body {
       radial-gradient(circle at 80% 70%, rgba(255, 170, 205, 0.06) 0 1px, transparent 1px);
     background-size: 35px 35px;
   }
-body: :before {
+body::before {
   content: "";
   position: fixed;
   inset: 0;
@@ -36,18 +36,17 @@ body: :before {
     margin: 50px auto 20px;
     padding: 45px 30px;
     text-align: center;
-
-    Background: linear-gradient(145deg, #1c15lb, #131014);
+background: linear-gradient(145deg, #1c151b, #131014);
     border: 1px solid #6f3c55;
     border-radius: 8px;
 
-    box-shadow:
-      0 0 25px rgba(255, 145, 190, 0.08),
-      inset 0 0 25px rgba(255, 145, 190, 0.03);
-    0 15px 40px rgba(0, 0, 0, 0.45);
+   box-shadow:
+  0 0 25px rgba(255, 145, 190, 0.08),
+  inset 0 0 25px rgba(255, 145, 190, 0.03),
+  0 15px 40px rgba(0, 0, 0, 0.45);
   }
-header: :before,
-header: :after {
+header::before,
+header::after {
   content: "<3";
   position: absolute;
   color: #9b5875;
@@ -114,7 +113,7 @@ box-shadow:
     transform: translateY(-2px);
 
   }
-nav a: :before {
+nav a::before {
   content: "<3";
   font-size: 0.7rem;
   opacity: 0.7;
@@ -198,7 +197,7 @@ article:hover {
   font-size: 0.75rem;
   letter-spacing: 2px;
 }
-.sinature {
+.signature {
   margin-top: 25px;
   padding-top: 13px;
   border-top: 1px solid #382730;
@@ -209,12 +208,12 @@ article:hover {
 .sidebar-box {
   position: relative;
   padding: 20px;
-  background: linear-gradient(145deg, #191319, #130f130);
+background: linear-gradient(145deg, #191319, #130f13);
   border: 1px solid #633c50;
   border-radius: 8px;
   box-shadow: 0 9px 28px rgba(0, 0, 0, 0.4);
 }
-.sidebar-box: :after {
+.sidebar-box::after {
   content: "<3";
   position: absolute;
   top: 9px;
