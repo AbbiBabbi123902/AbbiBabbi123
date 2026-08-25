@@ -429,4 +429,53 @@ a:hover {
   max-width: 1000px;
   margin: 0 auto 40px;
 }
-      
+  /*-------------RECENT MUSIC-------------*/
+
+.recent-music {
+  margin-bottom: 25px;
+  padding: 30px;
+  background: #171217;
+  border: 1px solid #673d52;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.4);
+}
+
+.recent-music h2 {
+  margin: 0 0 20px;
+  color: #f3a8c8;
+  font-size: 1.3rem;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+.recent-music img {
+  display: block;
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 18px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #704258;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
+}
+
+.recent-music h3 {
+  margin: 8px 0 3px;
+  color: #f3a8c8;
+  font-size: 1.15rem;
+  font-weight: normal;
+}
+
+.recent-music p {
+  margin: 4px 0;
+  color: #cdbcc4;
+}
+
+.recent-music #listening-status {
+  margin-top: 15px;
+  color: #9d7185;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}    
