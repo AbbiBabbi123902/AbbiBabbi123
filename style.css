@@ -424,5 +424,9 @@ a:hover {
     letter-spacing: 3px
   }
 }
-  
+  .page-content {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto 40px;
+}
       
