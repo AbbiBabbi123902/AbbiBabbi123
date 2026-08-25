@@ -497,4 +497,8 @@ a:hover {
 .recent-music #artist-name {
   color: #b98b9e !important;
 }
-
+.playlist-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
