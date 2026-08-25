@@ -376,25 +376,7 @@ background: linear-gradient(145deg, #191319, #130f13);
     color: #ffffff;
   }
 
-  /*---------------FOOTER------------*/
-
-  footer {
-    width: 90%;
-    max-width: 1000px;
-    margin: 35px auto 50px;
-    padding-top: 20px;
-
-    text-align: center;
-    color: #8f6879;
-    font-size: 0.85rem;
-    border-top: 1px solid #33232d;
-  }
-footer p {
-  margin: 7px 0;
-}
-footer p:first-child {
-  color: #b67a93;
-}
+ 
 /*----------------EXTRA DECORATIONS-------*/
 ::selection {
   background: #7a3f59;
