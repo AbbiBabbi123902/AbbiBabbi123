@@ -459,13 +459,24 @@ a:hover {
   border: 1px solid #704258;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.45);
 }
-
 .recent-music h3 {
-  margin: 8px 0 3px;
+  margin: 10px 0 2px;
   color: #f3a8c8;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 1.3;
+  text-shadow: 0 0 8px rgba(243, 168, 200, 0.18);
 }
+
+.recent-music #artist-name {
+  margin: 0;
+  color: #b98b9e;
+  font-size: 0.9rem;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
 
 .recent-music p {
   margin: 4px 0;
@@ -479,3 +490,11 @@ a:hover {
   letter-spacing: 1px;
   text-transform: uppercase;
 }    
+.recent-music h3 {
+  color: #f3a8c8 !important;
+}
+
+.recent-music #artist-name {
+  color: #b98b9e !important;
+}
+
