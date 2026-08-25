@@ -45,17 +45,7 @@ background: linear-gradient(145deg, #1c151b, #131014);
   inset 0 0 25px rgba(255, 145, 190, 0.03),
   0 15px 40px rgba(0, 0, 0, 0.45);
   }
-header::before,
-header::after {
-  content: " ★";
-  position: absolute;
-  color: #9b5875;
-  font-size: 0.8rem;
-}
-header: :before {
-  right: 18px;
-  bottom: 15px;
-}
+
 .header-top,
 .header-bottom {
   color: #c66f93;
@@ -113,11 +103,7 @@ box-shadow:
     transform: translateY(-2px);
 
   }
-nav a::before {
-  content: " ★";
-  font-size: 0.7rem;
-  opacity: 0.7;
-}
+
   /*-------------BLOG AREA-------*/
 .layout {
   width: 90%;
@@ -212,14 +198,8 @@ background: linear-gradient(145deg, #191319, #130f13);
   border: 1px solid #633c50;
   border-radius: 8px;
   box-shadow: 0 9px 28px rgba(0, 0, 0, 0.4);
-}
-.sidebar-box::after {
-  content: " ★";
-  position: absolute;
-  top: 9px;
-  right: 12px;
-  color: #9b5875;
-  font-size: 0.7rem;
+
+
 }
 .sidebar-box h2 {
   margin: 0 0 13px;
